@@ -5,7 +5,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Copy dependency files first (enables layer caching)
-COPY package*.json ./
+COPY inventory_server/package*.json ./
 
 # Install dependencies
 RUN npm install
