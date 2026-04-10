@@ -24,7 +24,7 @@ Think of a container as a pocket-sized VM — it behaves like its own machine, b
 |---|---|---|
 | Includes full OS | ✅ | ❌ |
 | Startup time | Minutes | Seconds |
-| Size | GBs | MBs |
+| Size | GBs | MBs | -d
 | Isolation | Strong (hardware-level) | Strong (process-level) |
 | Portability | Limited | High |
 
